@@ -1,0 +1,26 @@
+body {
+  background: #1488CC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.logo {
+  width: 40%;
+}
+/* Boton Realizado en  palntillas handelbar */
+a.boton_personalizado{
+  text-decoration: none;
+  width: 200px;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #1883ba;
+  border-radius: 6px;
+  border: 2px solid #0016b0;
+}
+a.boton_personalizado:hover{
+  color: #1883ba;
+  opacity: 0.6;
+  background-color: #ffffff;
+}
